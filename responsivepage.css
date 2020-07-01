@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    font-size: 70;
+    margin-bottom: 0;
+    color: white;
+    background-color: black;
+}
+nav {
+    height: 60px;
+    background-color: rgb(202, 199, 199);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+nav a:hover {
+    background-color: #2196f3;
+    color:white;
+}
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    transition: all 0.2s;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    background-color: rgb(216, 218, 219);
+    padding: 3rem 1rem;
+    order: 1;
+    flex: 1;
+    align-items: center;
+}
+.right {
+    background-color: lightgoldenrodyellow;
+    padding: 3rem 1rem;
+    order: 3;
+    flex: 1;
+    align-items: center;
+}
+.containerl {
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.containerr {
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.containerl aside {
+    padding: 0.5rem 1rem;
+}
+.containerr aside {
+    padding: 0.5rem 1rem;
+}
+ .left aside:hover {
+    background-color: #2196f3;
+    color:white;
+    /* border: 3px solid olive; */
+}
+.containerl:hover {
+    font-size: large;
+    border: olive 3px solid;
+}
+
+.right:hover {
+    font-size: large;
+    border: 3px solid olive;
+}
+
+.right aside:hover {
+    background-color: #2196f3;
+    color:white;
+    /* border: olive 3px solid; */
+}
+.main1 {
+    text-align: center;
+    background-color: rgb(224, 191, 158);
+    font-size: large;
+    padding: 3rem 1rem;
+    order: 2;
+    flex: 10;
+}
+.main1:hover {
+    border: 3px solid olive;
+}
+main {
+    display: flex;
+}
+@media screen and (max-width:575px) {
+    main {
+        flex-direction: column;
+    }
+    .left {
+        order: 2;
+    }
+}
+.footer {
+    background-color: rgb(180, 180, 176);
+    padding: 1rem 1rem;
+    text-align: center;
+}
+.footer:hover {
+    border: 3px solid olive;
+    font-size: large;
+}
