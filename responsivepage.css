@@ -6,16 +6,44 @@ h1 {
     background-color: black;
 }
 nav {
-    height: 60px;
+    height: 100px;
     background-color: rgb(202, 199, 199);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: flex;
 }
-nav a:hover {
+ nav a:hover {
+     height: 100px;
     background-color: #2196f3;
     color:white;
 }
-nav a {
+nav img:hover{
+    width: 340px;
+    opacity: 1;
+}
+nav div {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    transition: all 0.2s;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1 {
+    align-items: center;
+    flex: 1;
+}
+.img {
+    
+    align-items: center;
+    flex: 4;
+}
+.div2 {
+    align-items: center;
+    flex: 2; 
+}
+nav div a {
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
